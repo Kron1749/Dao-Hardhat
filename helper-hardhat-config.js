@@ -32,6 +32,10 @@ const MIN_DELAY = 3600
 const VOTING_PERIOD = 5
 const ADDRESS_ZERO = "0x0000000000000000000000000000000000000000"
 const VOTING_DELAY = 1
+const NEW_STORE_VALUE = 77
+const FUNC = "store"
+const PROPOSAL_DESCRIPTION = "Proposal #1 77 in the Box!"
+const proposalsFile = "proposals.json"
 const QUORUM_PERCENTAGE = 10
 const INITIAL_PRICE = "200000000000000000000"
 const BASE_FEE = "250000000000000000"
@@ -40,6 +44,10 @@ const VERIFICATION_BLOCK_CONFIRMATIONS = 5
 const developmentChains = ["hardhat", "localhost"]
 
 module.exports = {
+    PROPOSAL_DESCRIPTION,
+    FUNC,
+    NEW_STORE_VALUE,
+    proposalsFile,
     ADDRESS_ZERO,
     VOTING_PERIOD,
     VOTING_DELAY,
